@@ -6,11 +6,11 @@ package main
 
 import (
 	"bytes"
-	http "github.com/bogdanfinn/fhttp"
+	http "github.com/yogesh-prabu/fhttp"
 	"log"
 	"time"
 
-	"github.com/bogdanfinn/websocket"
+	"github.com/yogesh-prabu/websocket"
 )
 
 const (

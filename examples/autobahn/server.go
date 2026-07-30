@@ -8,13 +8,13 @@ package main
 import (
 	"errors"
 	"flag"
-	http "github.com/bogdanfinn/fhttp"
+	http "github.com/yogesh-prabu/fhttp"
 	"io"
 	"log"
 	"time"
 	"unicode/utf8"
 
-	"github.com/bogdanfinn/websocket"
+	"github.com/yogesh-prabu/websocket"
 )
 
 var upgrader = websocket.Upgrader{

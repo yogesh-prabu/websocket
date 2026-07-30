@@ -5,8 +5,8 @@ go 1.24.1
 retract v1.5.2 // tag accidentally overwritten
 
 require (
-	github.com/bogdanfinn/fhttp v0.6.8
-	github.com/bogdanfinn/utls v1.7.7-barnius
+	github.com/yogesh-prabu/fhttp v0.6.8
+	github.com/yogesh-prabu/utls v1.7.7-barnius
 	golang.org/x/net v0.38.0
 )
 
@@ -18,4 +18,4 @@ require (
 	golang.org/x/text v0.23.0 // indirect
 )
 
-// replace github.com/bogdanfinn/fhttp => ../fhttp
+// replace github.com/yogesh-prabu/fhttp => ../fhttp
